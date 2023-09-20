@@ -17,12 +17,12 @@ body{
 }
 
 .header{
-    margin: 10;
+    margin: 10px;
     padding: 30px;
 }
 .logo{
     display: inline-block;
-    margin: 10;
+    margin: 5px;
     padding: 5px;
     background-color: #FF0000;
     text-align: center;
@@ -31,7 +31,7 @@ body{
 
 .search{
     display: inline-block;
-    margin: 10;
+    margin: 5px;
     padding: 5px;
     width: 900px;
     background-color: #FF0000;
@@ -40,7 +40,7 @@ body{
 
 .create{
     display: inline-block;
-    margin: 10;
+    margin: 5px;
     padding: 5px;
     background-color: #FF0000;
     border-radius: 20px;
@@ -49,6 +49,7 @@ body{
 .sidebar{
     float: left;
     margin-top: 10px;
+    margin-left: 15px;
     padding: 5px;
     width: 10%;
     height: 2100px;
@@ -119,7 +120,7 @@ body{
 
 .recentsubscriber{
     display: inline-block;
-    margin-left: 330px;
+    margin-left: 300px;
     padding: 5px;
     width: 320px;
     height: 500px;
@@ -142,6 +143,15 @@ body{
     padding: 5px;
     width: 320px;
     height: 500px;
+    background-color: #FF0000;
+    border-radius: 20px;
+}
+
+.footer{
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    width: 1150px;
     background-color: #FF0000;
     border-radius: 20px;
 }
